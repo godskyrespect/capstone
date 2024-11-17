@@ -1,7 +1,4 @@
 import streamlit as st
-import firebase_admin
-from firebase_admin import credentials, firestore
-
 
 
 print("영역 전개 하는중..")
