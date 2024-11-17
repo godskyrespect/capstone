@@ -2,7 +2,7 @@ import streamlit as st
 from pymongo import MongoClient
 
 # MongoDB URI
-MONGO_URI = "mongodb+srv://apart:cokeos1987@cluster0.7pdc1.mongodb.net/myDatabase
+MONGO_URI = "mongodb+srv://jsheek93:cokeos1987@cluster0.7pdc1.mongodb.net/myDatabase"
 
 # MongoDB 연결
 client = MongoClient(MONGO_URI)
@@ -11,7 +11,7 @@ collection = db["posts"]  # 컬렉션 이름
 
 # Streamlit 앱 UI
 st.title("MongoDB 연결 테스트")
-st.write("Streamlit과 MongoDB 연동해보기이")
+st.write("Streamlit과 MongoDB 연동해보기히")
 
 # 입력 폼
 with st.form("entry_form"):
