@@ -2,7 +2,8 @@ import streamlit as st
 from pymongo import MongoClient
 
 # MongoDB URI
-MONGO_URI = "mongodb+srv://jsheek93:cokeos1987@cluster0.7pdc1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+# MONGO_URI = "mongodb+srv://jsheek93:cokeos1987@cluster0.7pdc1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_URI = "mongodb+srv://jsheek:episode1234@cluster0.7pdc1.mongodb.net/"
 
 # MongoDB 연결
 client = MongoClient(MONGO_URI)
