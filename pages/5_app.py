@@ -12,7 +12,7 @@ collection = db["posts"]  # 컬렉션 이름
 
 # Streamlit 앱 UI
 st.title("MongoDB 연결 테스트")
-st.write("Streamlit과 MongoDB 연동해보기히얏호")
+st.write("Streamlit과 MongoDB 연동해보기히얏호우")
 
 # 입력 폼
 with st.form("entry_form"):
